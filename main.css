@@ -1,0 +1,105 @@
+:root {
+    --green: #00ff00;
+    --white: #ffffff;   
+    --black: #000000;
+    --azules: #2e81a3;
+    --azul: skyblue;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: sans-serif;
+}
+
+
+body {
+    background: var(--bg);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+    --botaoBg: var(--azul)
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+    --botaoBg: var(--azules)
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    right: 10px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+#seta {
+    position: absolute;
+    top: 3px;
+    left: 421px;
+}
+
+textarea {
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    width: 346px;
+    height: 33px;
+}
+
+
+.mensa{
+    position: absolute;
+    top: 248px;
+    left: 12px;
+}
+
+.botao {
+    position: absolute;
+    top: 315px;
+    left: 306px;
+    background-color: var(--botaoBg);
+    color: var(--btnBg);
+    border-radius: 5px;
+}
+
+.direito {
+    position: absolute;
+    top: 549px;
+    left: 549px;
+    border-radius: 4px;
+}
+
+.msg {
+    position: absolute;
+    top: 376px;
+    left: 28px;
+}
